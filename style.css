@@ -1,0 +1,46 @@
+@import url("styles/header.css");
+@import url("styles/cabecalho.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/empregos.css");
+@import url("styles/depoimentos.css");
+@import url("styles/rodape.css");
+
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: white;
+    --cinza-escuro: #102828;
+    --cinza: #3a404e;
+    --cinza-claro: #667085;
+    --cinza-claro2: #d0d5dd;
+    --vermelho-escuro: #8e2424;
+    --gray-200: #EAECF0;
+    --gray-400: #98A2B3;
+    --gray-50: #F9FAFB;
+    --gray-500: #667085;
+    --gray-900: #101828;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    padding: 0 7rem;
+}
+
+main {  
+    padding: 0 7rem;
+}

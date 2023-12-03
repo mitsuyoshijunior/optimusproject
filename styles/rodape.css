@@ -1,0 +1,62 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 9.6rem 0;
+    background-color: var(--gray-50);
+}
+
+.rodape__titulo {
+    color: var(--gray-900);
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -0.72px;
+}
+
+.rodape__texto {
+    color: var(--gray-500);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.rodape__container {
+    display: flex;
+    gap: 1rem;
+}
+.rodape__container__input {
+    padding: 1.2rem 1.4rem 1.2rem 1.6rem;
+    width: 30rem;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-claro2);
+}
+
+.rodape__container__input::placeholder {
+    color: var(--gray-500);
+    font-weight: 1.6rem;
+}
+
+.rodape__container__botao {
+    display: flex;
+    color: var(--cor-de-fundo);
+    padding: 1.2rem 2rem;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid var(--vermelho-escuro);
+    background: var(--vermelho-escuro);
+}
+
+.rodape__container__botao:hover {
+    color: var(--vermelho-escuro);
+    background: var(--cor-de-fundo);
+}
+
+.rodape__container__botao:active {
+    background: var(--gray-900);
+}
+
+.rodape__copright {
+    color: var(--gray-400);
+    font-weight: 400;
+}

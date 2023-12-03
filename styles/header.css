@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    width: 100%;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 3px;
+}
+
+.container__links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.links__menu__ancoras {
+    font-weight: 500;
+    color: var(--gray-500);
+    padding: 0 0.6rem;
+    text-decoration: none;
+}
+
+button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--gray-500);
+    padding: 0 0.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.botoes__cadastrar {
+    background-color: var(--vermelho-escuro);
+    color: var(--cor-de-fundo);
+    padding: 1rem 1.8rem;
+    border-radius: 8px;
+}
+
+.botoes__cadastrar:active{
+    background-color: var(--gray-400);
+    color: var(--cinza-escuro);
+}
